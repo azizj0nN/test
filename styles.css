@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+body{
+    background-color: black;
+    font-family: "Playwrite CU", cursive;
+}
+.cont{
+    background-color: rgb(34, 32, 32);
+    max-width: 330px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.star{
+    color: orange;
+    background-color: rgba(63, 62, 62, 0.59);
+    padding: 3px 10px;
+    max-width: 20px; 
+    border-radius: 50%;
+}
+.text{
+    color: white;
+}
+.pp{
+    color: rgba(116, 113, 113, 0.59);
+}
+.rate {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.a{
+    background-color: rgb(6, 0, 29);
+    padding: 1px 13px;
+    border-radius: 50%;
+}
+.sub{
+    width: 100%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 13px;
+    border: none;
+    margin-top: 10px;
+    
+}
+.a:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+transition: all 0.5s;
+width: 50%;
+
+}
+
+
+ 
